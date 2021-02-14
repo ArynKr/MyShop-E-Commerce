@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../../assets/commerce.png";
 
 import useStyles from "./styles";
 
@@ -29,7 +30,7 @@ const Navbar = ({ totalItems }) => {
             color="inherit"
           >
             <img
-              src="https://i.ibb.co/Qp1SXBw/commerce.png"
+              src={logo}
               alt="MyShop"
               height="25px"
               className={classes.image}
